@@ -7,10 +7,11 @@
 | **Pentester Name (Cybersecurity Professional)** | **Angga Yoga Syahputra** |
 | **Program / Batch** | **B084-Networkwalks** |
 | **Date** | **11 November 2026** |
-| **Modules Completed** | **W2-PM1** (Multiple Kali Tools)<br>**W2-PM2** (GHDB Based Footprinting Attacks)<br>**W2-PM3** (Maltego Based Footprinting Attacks)<br>**W2-PM4** (theHarvester Based Footprinting Attacks)<br>**W2-PM5** (Zenmap Network Scanning) |
+| **Project Status** | **COMPLETED (100% — All 5 Week 2 Modules Verified)** |
+| **Modules Completed** | **W2-PM1:** Footprinting with Multiple Kali Tools (Completed)<br>**W2-PM2:** GHDB Based Footprinting Attacks (Completed)<br>**W2-PM3:** Maltego Based Footprinting Attacks (Completed)<br>**W2-PM4:** theHarvester Based Footprinting Attacks (Completed)<br>**W2-PM5:** Zenmap Network Scanning (Completed) |
 | **Client / Target** | 1. **Networkwalks** (`networkwalks.com` — secured written permission already)<br>2. **My own local LAN Network** (`192.168.100.0/24`) |
 | **Permission Secured from Client?** | **Yes** (Formal Letter of Authorization / Liability Waiver) |
-| **Phases Covered** | **Phase 1:** Reconnaissance & Footprinting (`W2-PM1` to `W2-PM4`)<br>**Phase 2:** Scanning & Network Discovery (`W2-PM5`)<br>**Phases 3–5:** In Progress |
+| **Phases Covered (Week 2 Scope)** | **Phase 1:** Reconnaissance & Footprinting (`W2-PM1` to `W2-PM4`) — **Completed**<br>**Phase 2:** Scanning & Network Discovery (`W2-PM5`) — **Completed** |
 
 ---
 
@@ -354,3 +355,24 @@ Completing all five Week 2 modules (**W2-PM1 through W2-PM5**) demonstrated how 
 - Through **active network scanning (`W2-PM5`)**, I identified the local LAN subnet (`192.168.100.0/24`) and enumerated 8 live hosts (plus `192.168.100.93`), their MAC addresses, hardware vendors (`Huawei Technologies` and `ASUSTek Computer`), and radial network topology in `6.54 seconds`.
 
 Addressing the medium- and high-priority exposures—particularly restricting `/wp-json/`, suppressing version banners, enabling DNSSEC, disabling open directory indexing, and monitoring local subnet hosts—will substantially reduce the attack surface before moving into **Phase 3 (Vulnerability Assessment & Exploitation)**.
+
+---
+
+## 8. Repository Deliverables & Evidence Index
+
+All required Week 2 project deliverables, raw command-line outputs, network topology exports, and visual screenshots are organized in this repository as follows:
+
+- **Main Penetration Testing Report:** [`README.md`](./README.md)
+- **Exported Network Topology Diagram (W2-PM5 Task 7):** [`Zenmap_Topology.pdf`](./Zenmap_Topology.pdf)
+- **Raw CLI Output Logs — Module 1 (`W2-PM1`):**
+  - [`outputs_w2pm1/01_whois.txt`](./outputs_w2pm1/01_whois.txt)
+  - [`outputs_w2pm1/02_whatweb.txt`](./outputs_w2pm1/02_whatweb.txt)
+  - [`outputs_w2pm1/03_nslookup.txt`](./outputs_w2pm1/03_nslookup.txt)
+  - [`outputs_w2pm1/04_curl.txt`](./outputs_w2pm1/04_curl.txt)
+  - [`outputs_w2pm1/05_wafw00f.txt`](./outputs_w2pm1/05_wafw00f.txt)
+  - [`outputs_w2pm1/06_dnsrecon.txt`](./outputs_w2pm1/06_dnsrecon.txt)
+- **Raw CLI Output Logs — Module 4 (`W2-PM4`):**
+  - [`outputs_w2pm4/07_theharvester_baidu.txt`](./outputs_w2pm4/07_theharvester_baidu.txt)
+  - [`outputs_w2pm4/08_theharvester_all.txt`](./outputs_w2pm4/08_theharvester_all.txt)
+- **Complete Visual Evidence Directory (18 Verified Screenshots Across `W2-PM1` to `W2-PM5`):** [`screenshots_project/`](./screenshots_project/)
+

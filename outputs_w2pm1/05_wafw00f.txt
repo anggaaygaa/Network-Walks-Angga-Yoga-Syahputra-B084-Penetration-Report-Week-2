@@ -10,3 +10,4 @@
 [*] Checking https://networkwalks.com
 [+] The site https://networkwalks.com is behind ModSecurity (SpiderLabs) WAF.
 [~] Number of requests: 2
+
