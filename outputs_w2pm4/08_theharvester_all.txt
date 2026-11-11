@@ -1,0 +1,70 @@
+*******************************************************************
+*  _   _                                            _             *
+* | |_| |__   ___    /\  /\__ _ _ ____   _____  ___| |_ ___ _ __  *
+* | __| '_ \ / _ \  / /_/ / _` | '__\ \ / / _ \/ __| __/ _ \ '__| *
+* | |_| | | |  __/ / __  / (_| | |   \ V /  __/\__ \ ||  __/ |    *
+*  \__|_| |_|\___| \/ /_/ \__,_|_|    \_/ \___||___/\__\___|_|    *
+*                                                                 *
+* theHarvester 4.11.1                                             *
+* Coded by Christian Martorella                                   *
+* Edge-Security Research                                          *
+* cmartorella@edge-security.com                                   *
+*                                                                 *
+*******************************************************************
+
+[*] Target: microsoft.com
+
+[*] Searching All sources.
+
+[*] Hosts found:
+---------------------
+wus3s1-reprocessor-dcatbackend-int.staging.bigcatalog-int.commerce.microsoft.com
+wus3s1-stagingsync-dcatbackend-int.staging.bigcatalog-int.commerce.microsoft.com
+ww.alchemy.microsoft.com
+wwwbeta.microsoft.com
+wwwco2test62.microsoft.com:64:ff9b::86aa:b908
+wwwqa.microsoft.com
+xbdprotopie.redmond.corp.microsoft.com
+xbox-displaycatalog.frontdoor.bigcatalog-ppe.commerce.microsoft.com
+xbox.collections-int.commerce.microsoft.com
+xbox.collections.commerce.microsoft.com
+xeusinsightiq01.redmond.corp.microsoft.com
+xeussupport.redmond.corp.microsoft.com
+xeustestclu01.redmond.corp.microsoft.com
+xflowservice-mixedreality.ptr.corp.microsoft.com
+xonecert.core.microsoft.com
+xplatmsg.dev.communication.microsoft.com
+xplatmsg.int.communication.microsoft.com
+xplatmsg.ppe.communication.microsoft.com
+xplatmsg.prod.communication.microsoft.com
+xreflect.adf.microsoft.com
+xxx-make-dev.aks-supplychain.microsoft.com
+yahoo.ads-int.microsoft.com
+yahoo.ads.microsoft.com
+yakko.buddy.microsoft.com
+yakko.buddy.microsoft.com:131.107.86.17
+yanlltest.apbuilders.microsoft.com
+yanlltest1.apbuilders.microsoft.com
+yourchoice.microsoft.com
+yt-fdv7.ppe.frontdoor.cloudcatalog.microsoft.com
+yt-fdv8.ppe.frontdoor.cloudcatalog.microsoft.com
+zai-prod-mwh-proc.ait.microsoft.com
+zai-prod-sec-proc.ait.microsoft.com
+zai-uat-mwh-proc.ait.microsoft.com
+zai-uat-sec-proc.ait.microsoft.com
+zebra-ai-api-prd.ait.microsoft.com
+zebra-ai-api-uat.ait.microsoft.com
+zebra-ai-web-prd.ait.microsoft.com
+zebra-ai-web-uat.ait.microsoft.com
+zeus.buddy.microsoft.com
+zeus.buddy.microsoft.com:131.107.86.4
+
+[*] Performing SecurityScorecard scan...
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+An exception has occurred in SecurityScorecard scanning:
+[!] Missing API key for SecurityScorecard.
+
+[*] Performing BuiltWith scan...
+Read api-keys.yaml from /etc/theHarvester/api-keys.yaml
+
+[!] Missing API key for BuiltWith.
